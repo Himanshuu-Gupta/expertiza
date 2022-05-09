@@ -104,6 +104,8 @@ GEM
       i18n
       rake (>= 10.0.0)
       sshkit (>= 1.9.0)
+    capistrano-bower (1.1.0)
+      capistrano (~> 3.0)
     capistrano-bundler (2.0.1)
       capistrano (~> 3.1)
     capistrano-db-tasks (0.6)
@@ -583,6 +585,7 @@ DEPENDENCIES
   bootstrap3-datetimepicker-rails (~> 4.17.47)
   bullet (~> 5.7.6)
   capistrano
+  capistrano-bower
   capistrano-bundler
   capistrano-db-tasks
   capistrano-passenger (>= 0.2.1)
