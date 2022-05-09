@@ -22,6 +22,7 @@ gem 'capistrano-db-tasks', require: false
 gem 'capistrano-passenger', '>= 0.2.1'
 gem 'capistrano-rails'
 gem 'capistrano-rvm'
+gem 'capistrano-bower'
 gem 'chartjs-ror'
 gem 'coffee-rails'
 gem 'coveralls', require: false
