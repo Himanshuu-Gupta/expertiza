@@ -1,6 +1,8 @@
 # CapistranoDbTasks (https://github.com/sgruhier/capistrano-db-tasks)
 require 'capistrano-db-tasks'
 
+Rake::Task["deploy:migrate"].clear_actions
+
 # if you haven't already specified
 set :rails_env, 'development'
 
